@@ -8,6 +8,7 @@ containerized applications.
 
 ### When to use AKS
     The following list describes some common use cases for AKS:
+    
     1-Lift and shift to containers with AKS: Migrate existing applications to containers and run
     them in a fully managed Kubernetes environment.
     2-Microservices with AKS: Simplify the deployment and management of microservices-based
