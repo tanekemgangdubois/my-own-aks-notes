@@ -3,5 +3,5 @@ managed Kubernetes service for deploying and managing
 containerized applications.
 
 ### AKS offers two cluster modes
-  AKS Automatic
-  AKS Standard
+    AKS Automatic
+    AKS Standard
