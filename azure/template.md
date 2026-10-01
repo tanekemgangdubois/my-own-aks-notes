@@ -6,7 +6,7 @@
   resource "azurerm_container_registry" "environment" {
     count = contains(["test", "preprod"], var.environment) ? 0 : 1
   
-    # Resource configuration...
+    Resource configuration...
   }
   Meaning: test and pre create zero; dev and prod create one.
 
