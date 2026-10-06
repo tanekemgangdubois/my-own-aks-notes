@@ -19,3 +19,4 @@
 | `main.tf` | Resources, data sources, or module calls |
 | `outputs.tf` | Values returned by the configuration |
 | `environments/dev.tfvars` | Actual environment values |
+
