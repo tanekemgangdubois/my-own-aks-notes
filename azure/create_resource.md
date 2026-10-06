@@ -10,3 +10,16 @@
 | Resource is optional | `count` or `for_each` | Create an ACR everywhere except test |
 | You need several similar resources | `for_each` | Create multiple subnets |
 | You reorganize already managed resources | `moved` | Move a resource group into a module |
+
+# Case 1 — Create a new resource
+  resource "azurerm_resource_group" "environment" {
+    name     = var.resource_group_name
+    location = var.location
+  }
+
+  # Case 2 — Read an existing resource
+    data "azurerm_virtual_network" "shared" {
+    name                = "VNET-TDMR-DEV-1"
+    resource_group_name = "rg-adodemo-dev"
+  }
+
