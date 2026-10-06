@@ -11,11 +11,11 @@
 | `09-cross-subscription` | Resources are in different subscriptions | Use a provider alias |
 
 # Every example includes these files:
-    | File | What belongs there |
-    |---|---|
-    | `versions.tf` | Terraform requirements and Azure provider configuration |
-    | `backend.tf` | State backend configuration |
-    | `variables.tf` | Input variable declarations |
-    | `main.tf` | Resources, data sources, or module calls |
-    | `outputs.tf` | Values returned by the configuration |
-    | `environments/dev.tfvars` | Actual environment values |
+| File | What belongs there |
+|---|---|
+| `versions.tf` | Terraform requirements and Azure provider configuration |
+| `backend.tf` | State backend configuration |
+| `variables.tf` | Input variable declarations |
+| `main.tf` | Resources, data sources, or module calls |
+| `outputs.tf` | Values returned by the configuration |
+| `environments/dev.tfvars` | Actual environment values |
