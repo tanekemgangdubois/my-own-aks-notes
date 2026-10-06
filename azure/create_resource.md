@@ -17,9 +17,16 @@
       location = var.location
     }
 
-  # Case 2 — Read an existing resource
+# Case 2 — Read an existing resource
     data "azurerm_virtual_network" "shared" {
     name                = "VNET-TDMR-DEV-1"
     resource_group_name = "rg-adodemo-dev"
   }
+  Use the result through:
+  data.azurerm_virtual_network.shared.id
+  A data source reads the VNet; destroying this configuration does not delete that VNet.
+
+# Case 3 — Adopt an existing resource
+  
+  
 
