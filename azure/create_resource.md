@@ -22,11 +22,24 @@
     name                = "VNET-TDMR-DEV-1"
     resource_group_name = "rg-adodemo-dev"
   }
-  Use the result through:
-  data.azurerm_virtual_network.shared.id
-  A data source reads the VNet; destroying this configuration does not delete that VNet.
+  
+      Use the result through:
+      data.azurerm_virtual_network.shared.id
+      A data source reads the VNet; destroying this configuration does not delete that VNet.
 
 # Case 3 — Adopt an existing resource
+    Declare the resource with settings matching the existing object:
+
+    resource "azurerm_resource_group" "environment" {
+      name     = "rg-existing"
+      location = "eastus"
+    }
+    
+    import {
+      to = azurerm_resource_group.environment
+      id = "/subscriptions/SUBSCRIPTION_ID/resourceGroups/rg-existing"
+    }
+    
   
   
 
