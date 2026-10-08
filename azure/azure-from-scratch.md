@@ -19,3 +19,8 @@
 <img width="1371" height="474" alt="image" src="https://github.com/user-attachments/assets/9f827440-3d03-489a-8662-371c9587e57d" />
 <img width="1336" height="519" alt="image" src="https://github.com/user-attachments/assets/5d051e85-079f-4953-88cd-6da5ab6ee44e" />
 <img width="1377" height="587" alt="image" src="https://github.com/user-attachments/assets/e263bace-edc5-465c-9e09-e685f1a1edf7" />
+<img width="1366" height="576" alt="image" src="https://github.com/user-attachments/assets/2a9d59b2-a820-42f1-9bd2-9ea79fabb6a8" />
+<img width="1237" height="332" alt="image" src="https://github.com/user-attachments/assets/8d2d9731-f080-4ead-848b-f44023f889c1" />
+
+# 4-ASG Explanation + ASG and NSG Lab in Azure | AZ-104 - Day 5
+<img width="1368" height="482" alt="image" src="https://github.com/user-attachments/assets/6d90f5dc-9ea2-4815-8b17-290260e7104e" />
